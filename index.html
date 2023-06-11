@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe Form</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form action="/recipes" method="post">
+  <div class="title">
+  <h1>Recipe Form</h1>
+  </div>
+  <label for="recipeName">Recipe Name</label>
+  <input required type="text" id="recipeName" name="recipeName">
+  <label for="recipeTime">Recipe Time</label>
+  <input required type="number" id="recipeTime" name="recipeTime">
+  <label for="ingredients">Ingredients</label>
+  <input required type="array" id="ingredients" name="ingredients"/>
+  <label for="serves">Serves</label>
+  <input required type="number" id="serves" name="serves">
+  <div class="submit">
+  <button  type="submit">Submit</button>
+  </div>
+</form>
+</body>
+</html>
